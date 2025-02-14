@@ -1,13 +1,9 @@
-'use client';
 import LoginForm from "@/components/login-form";
-import React from "react";
 
-function LoginPage() {
+export default function LoginPage() {
   return (
-    <div className="flex h-screen w-full px-4 justify-center items-center">
-        <LoginForm />
+    <div className="flex items-center justify-center w-full h-screen px-4">
+      <LoginForm />
     </div>
   );
 }
-
-export default LoginPage;
