@@ -148,7 +148,7 @@ async function sendEmailToParticipants(
       }
 
       return resend.emails.send({
-        from: "onboarding@resend.dev",
+        from: "send@gildairmoreira.com",
         to: participant.email,
         subject: `Sorteio de amigo secreto - ${groupName}`,
         html: `
